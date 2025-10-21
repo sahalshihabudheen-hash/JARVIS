@@ -1,35 +1,32 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commands - Jarvis Bot</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Jarvis Commands</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <canvas id="particles"></canvas>
+    <div class="scan-lines"></div>
 
-    <header>
-        <div class="logo">Jarvis Bot</div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="commands.html">Commands</a>
-        </nav>
-    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="commands.html">Commands</a>
+    </nav>
 
     <main>
-        <section class="commands">
-            <h1>Commands</h1>
-            <ul>
-                <li>/generate image - Generate AI images</li>
-                <li>/vc join - Make the bot join VC</li>
-                <li>/vc leave - Make the bot leave VC</li>
-                <li>/vc talk - Bot talks in VC</li>
-                <li>/play - Play music in VC</li>
-            </ul>
-        </section>
+        <h1>Commands</h1>
+        <ul class="command-list">
+            <li>/generate image</li>
+            <li>/vc join</li>
+            <li>/vc leave</li>
+            <li>/vc talk</li>
+            <li>/play</li>
+        </ul>
     </main>
 
+    <script src="js/script.js"></script>
 </body>
 </html>
